@@ -1,0 +1,72 @@
+body {
+    font-family: Times, sans-serif;
+    margin: 20px;
+    background-color: black;
+}
+
+#employeeForm {
+    margin-bottom: 20px;
+}
+
+#employeeForm label {
+    display: inline-block;
+    width: 150px;
+    color: white;
+
+}
+
+#employeeForm input {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 90px;
+    height: 35px;
+}
+
+/* #message {
+    font-weight: bold;
+} */
+
+.error {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.success {
+    color: green;
+}
+
+.employee {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+    width: 30%;
+}
+
+.delete-btn {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+input, textarea {
+    background-color: black;
+    color: white;
+  }
+

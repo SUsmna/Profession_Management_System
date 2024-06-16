@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app"><br>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Employees</h3><br><br>
+        <form id="employeeForm">
+            
+                <label for="name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspEnter Name:</label>
+                <input type="text" id="name"placeholder="Enter Name" required>
+            
+                <label for="profession">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Profession:</label>
+                <input type="text" id="profession"placeholder='Enter Profession' required>
+          
+                <label for="age">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Age:</label>
+                  <input type="text" id="age"placeholder="Enter Age" required><br><br>
+                  
+            <button type="button" onclick="addEmployee()">Add User</button>
+        </form>
+        <p id="message"></p>
+        <h2>Added Employee</h2>
+        <div id="employeeList">
+            <p>Data not found.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
